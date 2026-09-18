@@ -20,22 +20,30 @@
       "Amazon_rainforest": {
         "n": 112,
         "mean_em": 0.10714285714285714,
-        "mean_f1": 0.5048601909118936
+        "mean_f1": 0.5048601909118936,
+        "mean_faithfulness": 0.9151785714285714,
+        "mean_context_recall": 0.9642857142857143
       },
       "Black_Death": {
         "n": 108,
         "mean_em": 0.17592592592592593,
-        "mean_f1": 0.4898586535703481
+        "mean_f1": 0.4898586535703481,
+        "mean_faithfulness": 0.8762345679012347,
+        "mean_context_recall": 0.8703703703703703
       },
       "French_and_Indian_War": {
         "n": 112,
         "mean_em": 0.09821428571428571,
-        "mean_f1": 0.4698644504323172
+        "mean_f1": 0.4698644504323172,
+        "mean_faithfulness": 0.936139455782313,
+        "mean_context_recall": 0.8571428571428571
       },
       "Nikola_Tesla": {
         "n": 112,
         "mean_em": 0.0625,
-        "mean_f1": 0.32922268847083014
+        "mean_f1": 0.32922268847083014,
+        "mean_faithfulness": 0.869047619047619,
+        "mean_context_recall": 0.7678571428571429
       }
     },
     "per_question": [
@@ -84,7 +92,8 @@
             "doc_id": "French_and_Indian_War::35",
             "score": 0.38642517213939187
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a064a3f37b3190047865d",
@@ -131,7 +140,8 @@
             "doc_id": "Amazon_rainforest::7",
             "score": 0.5311208359557831
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733d2dbd058e614000b633a",
@@ -178,7 +188,8 @@
             "doc_id": "French_and_Indian_War::16",
             "score": 0.41154146940224345
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728455bff5b5019007da07b",
@@ -225,7 +236,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.47942274808883667
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725be0f271a42140099d11b",
@@ -272,7 +284,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.4862890346341213
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264845f1498d1400e8db0c",
@@ -319,7 +332,8 @@
             "doc_id": "Nikola_Tesla::8",
             "score": 0.21533191204071045
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0ff5dcd28a01900c673fd",
@@ -366,7 +380,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.2762354612350464
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e1127bcd28a01900c6754a",
@@ -413,7 +428,8 @@
             "doc_id": "Nikola_Tesla::91",
             "score": 0.6096014976501465
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "572a07c11d046914007796d5",
@@ -460,7 +476,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.40589582920074463
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a020f6aef051400155198",
@@ -507,7 +524,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.5675644874572754
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d2dbd058e614000b6339",
@@ -554,7 +572,8 @@
             "doc_id": "French_and_Indian_War::45",
             "score": 0.4234185319342261
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573406d1d058e614000b6801",
@@ -601,7 +620,8 @@
             "doc_id": "French_and_Indian_War::38",
             "score": 0.4678212511836979
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0812c231d4119001ac213",
@@ -648,7 +668,8 @@
             "doc_id": "French_and_Indian_War::27",
             "score": 0.28602839946956715
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0d810231d4119001ac433",
@@ -695,7 +716,8 @@
             "doc_id": "French_and_Indian_War::14",
             "score": 0.28077222626545917
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5734025d4776f419006616c6",
@@ -742,7 +764,8 @@
             "doc_id": "French_and_Indian_War::12",
             "score": 0.42450311926400386
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d13e4776f419006612c5",
@@ -789,7 +812,8 @@
             "doc_id": "Nikola_Tesla::47",
             "score": 0.2066129446029663
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5729f2646aef051400155133",
@@ -836,7 +860,8 @@
             "doc_id": "Amazon_rainforest::13",
             "score": 0.5084566437320697
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733e5a14776f4190066145b",
@@ -883,7 +908,8 @@
             "doc_id": "French_and_Indian_War::14",
             "score": 0.3484725408840228
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f7b9d058e614000b66aa",
@@ -930,7 +956,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.27906012535095215
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "572a0bfaaf94a219006aa77c",
@@ -977,7 +1004,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.5902302692712852
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d4c8d058e614000b6356",
@@ -1024,7 +1052,8 @@
             "doc_id": "French_and_Indian_War::25",
             "score": 0.47605509550961034
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264b3edd62a815002e80aa",
@@ -1071,7 +1100,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.5137649342695768
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e11ba9cd28a01900c675d8",
@@ -1118,7 +1148,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.4946662187576294
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c95f38643c19005accf3",
@@ -1165,7 +1196,8 @@
             "doc_id": "Nikola_Tesla::89",
             "score": 0.18828701972961426
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733ef47d058e614000b662c",
@@ -1212,7 +1244,8 @@
             "doc_id": "French_and_Indian_War::14",
             "score": 0.4677397468524067
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10ddce3433e1400422b48",
@@ -1259,7 +1292,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.5338999032974243
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733e8ae4776f419006614a7",
@@ -1306,7 +1340,8 @@
             "doc_id": "French_and_Indian_War::26",
             "score": 0.3099935412731937
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726577f708984140094c303",
@@ -1353,7 +1388,8 @@
             "doc_id": "Black_Death::4",
             "score": 0.5681753186579283
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572654e2708984140094c2b8",
@@ -1400,7 +1436,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.5228394469673127
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0f5a6231d4119001ac4d4",
@@ -1447,7 +1484,8 @@
             "doc_id": "Nikola_Tesla::35",
             "score": 0.620446503162384
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f062d058e614000b6636",
@@ -1494,7 +1532,8 @@
             "doc_id": "French_and_Indian_War::4",
             "score": 0.4645341272405372
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f0db6aef051400155129",
@@ -1541,7 +1580,8 @@
             "doc_id": "Amazon_rainforest::10",
             "score": 0.4687958218390331
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10296cd28a01900c67425",
@@ -1588,7 +1628,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.2949063003167507
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264cc6dd62a815002e80e4",
@@ -1635,7 +1676,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.37591649214912115
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d7cbd058e614000b63ae",
@@ -1682,7 +1724,8 @@
             "doc_id": "French_and_Indian_War::45",
             "score": 0.3355149850268926
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726534d708984140094c270",
@@ -1729,7 +1772,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.22085989223673708
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e11afbcd28a01900c675c7",
@@ -1776,7 +1820,8 @@
             "doc_id": "Nikola_Tesla::58",
             "score": 0.5297226309776306
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0d76d231d4119001ac42c",
@@ -1823,7 +1868,8 @@
             "doc_id": "Nikola_Tesla::43",
             "score": 0.5599240660667419
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729ef266aef05140015511e",
@@ -1870,7 +1916,8 @@
             "doc_id": "French_and_Indian_War::15",
             "score": 0.3999481402496359
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729ef266aef05140015511f",
@@ -1917,7 +1964,8 @@
             "doc_id": "Amazon_rainforest::11",
             "score": 0.591903052425976
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733e8ae4776f419006614a9",
@@ -1964,7 +2012,8 @@
             "doc_id": "French_and_Indian_War::34",
             "score": 0.4532005727256794
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10325cd28a01900c67436",
@@ -2011,7 +2060,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.28145039081573486
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfb666231d4119001abcc2",
@@ -2058,7 +2108,8 @@
             "doc_id": "Nikola_Tesla::21",
             "score": 0.20251280069351196
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733cf61d058e614000b62e9",
@@ -2105,7 +2156,8 @@
             "doc_id": "French_and_Indian_War::3",
             "score": 0.5110399608148071
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729e6313f37b319004785aa",
@@ -2152,7 +2204,8 @@
             "doc_id": "Amazon_rainforest::7",
             "score": 0.5276311216581039
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729edd56aef051400155113",
@@ -2199,7 +2252,8 @@
             "doc_id": "Amazon_rainforest::0",
             "score": 0.3808360695838928
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f062d058e614000b6634",
@@ -2246,7 +2300,8 @@
             "doc_id": "French_and_Indian_War::36",
             "score": 0.3686619866391013
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfb5f5231d4119001abcb8",
@@ -2293,7 +2348,8 @@
             "doc_id": "Nikola_Tesla::57",
             "score": 0.30070483684539795
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d7cbd058e614000b63ab",
@@ -2340,7 +2396,8 @@
             "doc_id": "French_and_Indian_War::3",
             "score": 0.4215252237249354
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733fe73d058e614000b673e",
@@ -2387,7 +2444,8 @@
             "doc_id": "French_and_Indian_War::18",
             "score": 0.4053935815087173
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d2dbd058e614000b633b",
@@ -2434,7 +2492,8 @@
             "doc_id": "French_and_Indian_War::4",
             "score": 0.31861106593094024
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d5704776f4190066130e",
@@ -2481,7 +2540,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.47003918611302153
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340111d058e614000b677d",
@@ -2528,7 +2588,8 @@
             "doc_id": "French_and_Indian_War::42",
             "score": 0.37894114060437256
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573403394776f419006616df",
@@ -2575,7 +2636,8 @@
             "doc_id": "French_and_Indian_War::37",
             "score": 0.2931727922827577
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0bebaf94a219006aa773",
@@ -2622,7 +2684,8 @@
             "doc_id": "Amazon_rainforest::13",
             "score": 0.48886500352731643
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726722bdd62a815002e852a",
@@ -2669,7 +2732,8 @@
             "doc_id": "Amazon_rainforest::0",
             "score": 0.5270162224769592
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726509bdd62a815002e815a",
@@ -2716,7 +2780,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.609330998980041
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572647935951b619008f6ecd",
@@ -2763,7 +2828,8 @@
             "doc_id": "Black_Death::7",
             "score": 0.4690577275140104
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57283d173acd2414000df791",
@@ -2810,7 +2876,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.44109502132586753
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729eb34af94a219006aa6cd",
@@ -2857,7 +2924,8 @@
             "doc_id": "Amazon_rainforest::8",
             "score": 0.499281235129162
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f5f24776f419006615c4",
@@ -2904,7 +2972,8 @@
             "doc_id": "French_and_Indian_War::23",
             "score": 0.3355521094006959
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733faaf4776f4190066162f",
@@ -2951,7 +3020,8 @@
             "doc_id": "French_and_Indian_War::30",
             "score": 0.5243672994086888
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e11f83cd28a01900c67613",
@@ -2998,7 +3068,8 @@
             "doc_id": "Nikola_Tesla::76",
             "score": 0.5225747227668762
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265642f1498d1400e8dc6a",
@@ -3045,7 +3116,8 @@
             "doc_id": "Black_Death::22",
             "score": 0.5783272954472714
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733da01d058e614000b63f9",
@@ -3092,7 +3164,8 @@
             "doc_id": "French_and_Indian_War::7",
             "score": 0.2770762898097354
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264a74708984140094c18b",
@@ -3139,7 +3212,8 @@
             "doc_id": "Black_Death::13",
             "score": 0.5151008396113168
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0fe85e3433e1400422a6e",
@@ -3186,7 +3260,8 @@
             "doc_id": "Black_Death::8",
             "score": 0.24570777637510843
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733f8dc4776f419006615f9",
@@ -3233,7 +3308,8 @@
             "doc_id": "French_and_Indian_War::23",
             "score": 0.43290133664947694
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264cc6dd62a815002e80e6",
@@ -3280,7 +3356,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.16880979438592625
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733dc95d058e614000b644b",
@@ -3327,7 +3404,8 @@
             "doc_id": "French_and_Indian_War::28",
             "score": 0.30165040062393744
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e08f4a231d4119001ac2b8",
@@ -3374,7 +3452,8 @@
             "doc_id": "Nikola_Tesla::41",
             "score": 0.49781012535095215
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726542ff1498d1400e8dc2c",
@@ -3421,7 +3500,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.4189065464553835
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265700dd62a815002e8211",
@@ -3468,7 +3548,8 @@
             "doc_id": "French_and_Indian_War::5",
             "score": 0.4168417851110574
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "572a0bfaaf94a219006aa77a",
@@ -3515,7 +3596,8 @@
             "doc_id": "Amazon_rainforest::11",
             "score": 0.5119459158322405
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729ea263f37b319004785be",
@@ -3562,7 +3644,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.385448694229126
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5734025d4776f419006616c4",
@@ -3609,7 +3692,8 @@
             "doc_id": "French_and_Indian_War::32",
             "score": 0.3100212637375257
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e12477e3433e1400422c61",
@@ -3656,7 +3740,8 @@
             "doc_id": "Nikola_Tesla::82",
             "score": 0.5939148664474487
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfb0c8231d4119001abc85",
@@ -3703,7 +3788,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.609709620475769
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264684708984140094c124",
@@ -3750,7 +3836,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.5597846243086901
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e110c3cd28a01900c67533",
@@ -3797,7 +3884,8 @@
             "doc_id": "Nikola_Tesla::0",
             "score": 0.2988441586494446
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733e771d058e614000b6547",
@@ -3844,7 +3932,8 @@
             "doc_id": "French_and_Indian_War::4",
             "score": 0.27419513484850633
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10412e3433e1400422abb",
@@ -3891,7 +3980,8 @@
             "doc_id": "Nikola_Tesla::33",
             "score": 0.37881791591644287
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340b1bd058e614000b6869",
@@ -3938,7 +4028,8 @@
             "doc_id": "French_and_Indian_War::2",
             "score": 0.4125426458342225
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726559edd62a815002e81cb",
@@ -3985,7 +4076,8 @@
             "doc_id": "Black_Death::8",
             "score": 0.6075956927897208
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264f18f1498d1400e8dbae",
@@ -4032,7 +4124,8 @@
             "doc_id": "Amazon_rainforest::2",
             "score": 0.20208603143692017
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57340549d058e614000b67df",
@@ -4079,7 +4172,8 @@
             "doc_id": "French_and_Indian_War::37",
             "score": 0.5211319447138588
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a03a06aef0514001551ae",
@@ -4126,7 +4220,8 @@
             "doc_id": "Amazon_rainforest::14",
             "score": 0.5853196741492042
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264845f1498d1400e8db0a",
@@ -4173,7 +4268,8 @@
             "doc_id": "Black_Death::11",
             "score": 0.6666155372050887
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c63438643c19005acca1",
@@ -4220,7 +4316,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.2501257658004761
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0bb9f7aa994140058e6ce",
@@ -4267,7 +4364,8 @@
             "doc_id": "Nikola_Tesla::43",
             "score": 0.5667898058891296
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0fb887aa994140058e869",
@@ -4314,7 +4412,8 @@
             "doc_id": "Nikola_Tesla::61",
             "score": 0.5926634669303894
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0bebaf94a219006aa772",
@@ -4361,7 +4460,8 @@
             "doc_id": "Amazon_rainforest::12",
             "score": 0.5972176505459914
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265700dd62a815002e820f",
@@ -4408,7 +4508,8 @@
             "doc_id": "Black_Death::0",
             "score": 0.6087847672891368
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a064a3f37b31900478661",
@@ -4455,7 +4556,8 @@
             "doc_id": "Amazon_rainforest::11",
             "score": 0.5490653307221587
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340a094776f4190066177d",
@@ -4502,7 +4604,8 @@
             "doc_id": "French_and_Indian_War::14",
             "score": 0.5299680700192394
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a09abaf94a219006aa75d",
@@ -4549,7 +4652,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.517417848110199
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0fa5b7aa994140058e85a",
@@ -4596,7 +4700,8 @@
             "doc_id": "Nikola_Tesla::80",
             "score": 0.5775838494300842
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d5704776f4190066130f",
@@ -4643,7 +4748,8 @@
             "doc_id": "French_and_Indian_War::42",
             "score": 0.47099476624503944
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d249d058e614000b6333",
@@ -4690,7 +4796,8 @@
             "doc_id": "French_and_Indian_War::42",
             "score": 0.41464879482490336
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733f5f24776f419006615c2",
@@ -4737,7 +4844,8 @@
             "doc_id": "French_and_Indian_War::2",
             "score": 0.34737439964104866
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264991f1498d1400e8db2f",
@@ -4784,7 +4892,8 @@
             "doc_id": "Black_Death::19",
             "score": 0.5563817840698732
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56df9ee138dc421700152108",
@@ -4831,7 +4940,8 @@
             "doc_id": "Nikola_Tesla::3",
             "score": 0.6114315390586853
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733fc6ed058e614000b6712",
@@ -4878,7 +4988,8 @@
             "doc_id": "French_and_Indian_War::32",
             "score": 0.2674885845063262
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264845f1498d1400e8db0e",
@@ -4925,7 +5036,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.5995703370600902
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265642f1498d1400e8dc6c",
@@ -4972,7 +5084,8 @@
             "doc_id": "Black_Death::4",
             "score": 0.6399588249820062
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f2646aef051400155130",
@@ -5019,7 +5132,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.6033835411071777
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572647935951b619008f6ecc",
@@ -5066,7 +5180,8 @@
             "doc_id": "Black_Death::3",
             "score": 0.33690864601453885
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e08f4a231d4119001ac2b9",
@@ -5113,7 +5228,8 @@
             "doc_id": "Nikola_Tesla::62",
             "score": 0.48433732986450195
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726534d708984140094c26d",
@@ -5160,7 +5276,8 @@
             "doc_id": "Black_Death::8",
             "score": 0.40241061983920545
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573408ef4776f41900661758",
@@ -5207,7 +5324,8 @@
             "doc_id": "French_and_Indian_War::16",
             "score": 0.42696444729420713
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "572a07c11d046914007796d9",
@@ -5254,7 +5372,8 @@
             "doc_id": "Amazon_rainforest::18",
             "score": 0.28877598889250766
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0fc3f7aa994140058e879",
@@ -5301,7 +5420,8 @@
             "doc_id": "Nikola_Tesla::52",
             "score": 0.4463971257209778
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f3831d0469140077967f",
@@ -5348,7 +5468,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.38848042488098145
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a020f6aef051400155199",
@@ -5395,7 +5516,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.3897678852081299
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0f32d231d4119001ac4ca",
@@ -5442,7 +5564,8 @@
             "doc_id": "Nikola_Tesla::3",
             "score": 0.5646275281906128
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e12477e3433e1400422c5f",
@@ -5489,7 +5612,8 @@
             "doc_id": "French_and_Indian_War::18",
             "score": 0.25456882104519274
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f5264776f419006615a6",
@@ -5536,7 +5660,8 @@
             "doc_id": "French_and_Indian_War::19",
             "score": 0.22179478603904013
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfb5f5231d4119001abcb9",
@@ -5583,7 +5708,8 @@
             "doc_id": "Nikola_Tesla::9",
             "score": 0.525810718536377
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733dd4f4776f419006613ac",
@@ -5630,7 +5756,8 @@
             "doc_id": "French_and_Indian_War::27",
             "score": 0.3858144596228784
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729e2316aef0514001550c6",
@@ -5677,7 +5804,8 @@
             "doc_id": "Amazon_rainforest::8",
             "score": 0.5521042860883698
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573408ef4776f41900661759",
@@ -5724,7 +5852,8 @@
             "doc_id": "French_and_Indian_War::18",
             "score": 0.508615766628874
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f0db6aef051400155127",
@@ -5771,7 +5900,8 @@
             "doc_id": "Amazon_rainforest::10",
             "score": 0.5076231628503474
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0bebaf94a219006aa76f",
@@ -5818,7 +5948,8 @@
             "doc_id": "Amazon_rainforest::13",
             "score": 0.5410852848412911
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264684708984140094c125",
@@ -5865,7 +5996,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.578596440798918
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfa0d84a1a83140091ebb9",
@@ -5912,7 +6044,8 @@
             "doc_id": "Nikola_Tesla::44",
             "score": 0.5868455767631531
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56df9ee138dc421700152109",
@@ -5959,7 +6092,8 @@
             "doc_id": "Nikola_Tesla::18",
             "score": 0.6385894417762756
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264f18f1498d1400e8dbb0",
@@ -6006,7 +6140,8 @@
             "doc_id": "Black_Death::12",
             "score": 0.6495279188647449
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264f18f1498d1400e8dbb1",
@@ -6053,7 +6188,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.4653285691887614
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0ccaa7aa994140058e718",
@@ -6100,7 +6236,8 @@
             "doc_id": "Nikola_Tesla::12",
             "score": 0.2456064224243164
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733e771d058e614000b6546",
@@ -6147,7 +6284,8 @@
             "doc_id": "French_and_Indian_War::32",
             "score": 0.2566872915388845
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a005f1d046914007796b8",
@@ -6194,7 +6332,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.5576338171958923
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d4c8d058e614000b6355",
@@ -6241,7 +6380,8 @@
             "doc_id": "French_and_Indian_War::34",
             "score": 0.48973503467782153
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e11a16cd28a01900c675b7",
@@ -6288,7 +6428,8 @@
             "doc_id": "Nikola_Tesla::22",
             "score": 0.5372787117958069
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10c61e3433e1400422b36",
@@ -6335,7 +6476,8 @@
             "doc_id": "Nikola_Tesla::51",
             "score": 0.5644440650939941
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0e518231d4119001ac445",
@@ -6382,7 +6524,8 @@
             "doc_id": "Nikola_Tesla::41",
             "score": 0.5033043026924133
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725b81b271a42140099d099",
@@ -6429,7 +6572,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.25649118423461914
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264e2f708984140094c1e5",
@@ -6476,7 +6620,8 @@
             "doc_id": "Black_Death::12",
             "score": 0.32636912070545687
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340d124776f419006617c3",
@@ -6523,7 +6668,8 @@
             "doc_id": "French_and_Indian_War::43",
             "score": 0.3733870233340433
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0ee12231d4119001ac45c",
@@ -6570,7 +6716,8 @@
             "doc_id": "Nikola_Tesla::13",
             "score": 0.1786629557609558
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726516a708984140094c225",
@@ -6617,7 +6764,8 @@
             "doc_id": "Black_Death::0",
             "score": 0.6229661663422209
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726577f708984140094c304",
@@ -6664,7 +6812,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.5561179583932626
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e08a1f7aa994140058e5dd",
@@ -6711,7 +6860,8 @@
             "doc_id": "Nikola_Tesla::0",
             "score": 0.46587425470352173
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e11d8ecd28a01900c675f2",
@@ -6758,7 +6908,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.5394672751426697
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0b94b7aa994140058e6bb",
@@ -6805,7 +6956,8 @@
             "doc_id": "Nikola_Tesla::24",
             "score": 0.3351758122444153
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573407d7d058e614000b6815",
@@ -6852,7 +7004,8 @@
             "doc_id": "French_and_Indian_War::42",
             "score": 0.5072681486215379
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0bfaaf94a219006aa77d",
@@ -6899,7 +7052,8 @@
             "doc_id": "Amazon_rainforest::11",
             "score": 0.5527878965399865
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a064a3f37b3190047865f",
@@ -6946,7 +7100,8 @@
             "doc_id": "French_and_Indian_War::15",
             "score": 0.37333099830746697
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfa7887aa994140058dfad",
@@ -6993,7 +7148,8 @@
             "doc_id": "Nikola_Tesla::72",
             "score": 0.5873592495918274
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5729e2316aef0514001550c7",
@@ -7040,7 +7196,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.6159606575965881
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a005f1d046914007796bb",
@@ -7087,7 +7244,8 @@
             "doc_id": "Amazon_rainforest::14",
             "score": 0.6393878652098912
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e1127bcd28a01900c6754d",
@@ -7134,7 +7292,8 @@
             "doc_id": "Black_Death::14",
             "score": 0.17920601004125114
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340a094776f4190066177f",
@@ -7181,7 +7340,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.46191631164608515
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfa7887aa994140058dfac",
@@ -7228,7 +7388,8 @@
             "doc_id": "Nikola_Tesla::86",
             "score": 0.5911586880683899
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5725cf3238643c19005acd62",
@@ -7275,7 +7436,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.5229010581970215
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726577f708984140094c302",
@@ -7322,7 +7484,8 @@
             "doc_id": "French_and_Indian_War::7",
             "score": 0.39578838432106045
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340b1bd058e614000b686a",
@@ -7369,7 +7532,8 @@
             "doc_id": "French_and_Indian_War::41",
             "score": 0.4140612975500967
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c63438643c19005acca3",
@@ -7416,7 +7580,8 @@
             "doc_id": "Amazon_rainforest::9",
             "score": 0.24655327376128033
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0b101d046914007796e9",
@@ -7463,7 +7628,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.527958869934082
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726509bdd62a815002e815e",
@@ -7510,7 +7676,8 @@
             "doc_id": "Nikola_Tesla::82",
             "score": 0.20520341396331787
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726516a708984140094c223",
@@ -7557,7 +7724,8 @@
             "doc_id": "Black_Death::6",
             "score": 0.5694377751851489
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733e5a14776f4190066145d",
@@ -7604,7 +7772,8 @@
             "doc_id": "French_and_Indian_War::12",
             "score": 0.4526027151253582
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729fd56af94a219006aa731",
@@ -7651,7 +7820,8 @@
             "doc_id": "Amazon_rainforest::18",
             "score": 0.5701842267142505
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0fe85e3433e1400422a6a",
@@ -7698,7 +7868,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.5948377251625061
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e08f4a231d4119001ac2b7",
@@ -7745,7 +7916,8 @@
             "doc_id": "Nikola_Tesla::60",
             "score": 0.6107673048973083
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264c42dd62a815002e80ca",
@@ -7792,7 +7964,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.6173981337146163
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725be0f271a42140099d118",
@@ -7839,7 +8012,8 @@
             "doc_id": "Amazon_rainforest::12",
             "score": 0.35965627289798374
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264c42dd62a815002e80c9",
@@ -7886,7 +8060,8 @@
             "doc_id": "French_and_Indian_War::17",
             "score": 0.3364445547702326
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e08aa0231d4119001ac29d",
@@ -7933,7 +8108,8 @@
             "doc_id": "Nikola_Tesla::44",
             "score": 0.5455024838447571
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0bfaaf94a219006aa77b",
@@ -7980,7 +8156,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.6061007073301617
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a07c11d046914007796d6",
@@ -8027,7 +8204,8 @@
             "doc_id": "French_and_Indian_War::10",
             "score": 0.31452915192058906
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729e500af94a219006aa6b6",
@@ -8074,7 +8252,8 @@
             "doc_id": "Amazon_rainforest::12",
             "score": 0.5329824296272289
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e110c3cd28a01900c67535",
@@ -8121,7 +8300,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.44416047067744746
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "572a09abaf94a219006aa75f",
@@ -8168,7 +8348,8 @@
             "doc_id": "Amazon_rainforest::7",
             "score": 0.2429637440671648
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264e2f708984140094c1e4",
@@ -8215,7 +8396,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.41599954201434786
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfa3394a1a83140091ec00",
@@ -8262,7 +8444,8 @@
             "doc_id": "Nikola_Tesla::86",
             "score": 0.5139192342758179
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264cc6dd62a815002e80e7",
@@ -8309,7 +8492,8 @@
             "doc_id": "Black_Death::6",
             "score": 0.5383912006390914
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c63438643c19005acca2",
@@ -8356,7 +8540,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.25208961546351794
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265700dd62a815002e8210",
@@ -8403,7 +8588,8 @@
             "doc_id": "Black_Death::19",
             "score": 0.578018887906298
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265285708984140094c25f",
@@ -8450,7 +8636,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.5584680942495298
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10412e3433e1400422abd",
@@ -8497,7 +8684,8 @@
             "doc_id": "Nikola_Tesla::62",
             "score": 0.6093072295188904
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572654e2708984140094c2b9",
@@ -8544,7 +8732,8 @@
             "doc_id": "Black_Death::19",
             "score": 0.6217983383151646
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733fb7bd058e614000b66ff",
@@ -8591,7 +8780,8 @@
             "doc_id": "French_and_Indian_War::17",
             "score": 0.2891395692716068
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733ffa7d058e614000b6751",
@@ -8638,7 +8828,8 @@
             "doc_id": "French_and_Indian_War::24",
             "score": 0.5185973356416959
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e100b6cd28a01900c67405",
@@ -8685,7 +8876,8 @@
             "doc_id": "Nikola_Tesla::57",
             "score": 0.5073822140693665
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f2646aef051400155131",
@@ -8732,7 +8924,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.5203555226325989
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729e2316aef0514001550c4",
@@ -8779,7 +8972,8 @@
             "doc_id": "Amazon_rainforest::14",
             "score": 0.5788566582694945
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733da01d058e614000b63fa",
@@ -8826,7 +9020,8 @@
             "doc_id": "French_and_Indian_War::14",
             "score": 0.48832295296195616
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733fe73d058e614000b673f",
@@ -8873,7 +9068,8 @@
             "doc_id": "French_and_Indian_War::17",
             "score": 0.46227986864706816
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264c42dd62a815002e80c6",
@@ -8920,7 +9116,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.5661434274355125
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728349dff5b5019007d9f00",
@@ -8967,7 +9164,8 @@
             "doc_id": "Amazon_rainforest::8",
             "score": 0.5909275194270582
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e1011ecd28a01900c6740d",
@@ -9014,7 +9212,8 @@
             "doc_id": "Nikola_Tesla::30",
             "score": 0.33691906929016113
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f3831d0469140077967e",
@@ -9061,7 +9260,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.1750013677780876
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573407d7d058e614000b6814",
@@ -9108,7 +9308,8 @@
             "doc_id": "French_and_Indian_War::10",
             "score": 0.3715062257664442
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264f18f1498d1400e8dbb2",
@@ -9155,7 +9356,8 @@
             "doc_id": "Black_Death::12",
             "score": 0.4550548613280032
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729fd56af94a219006aa730",
@@ -9202,7 +9404,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.5854557156562805
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726577f708984140094c301",
@@ -9249,7 +9452,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.5969696570723657
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfa24a38dc421700152145",
@@ -9296,7 +9500,8 @@
             "doc_id": "Nikola_Tesla::35",
             "score": 0.6012887358665466
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfb666231d4119001abcc0",
@@ -9343,7 +9548,8 @@
             "doc_id": "French_and_Indian_War::13",
             "score": 0.27957477999475366
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f1784776f41900661577",
@@ -9390,7 +9596,8 @@
             "doc_id": "French_and_Indian_War::35",
             "score": 0.39360573646086894
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d3cb4776f419006612ea",
@@ -9437,7 +9644,8 @@
             "doc_id": "French_and_Indian_War::0",
             "score": 0.3925879553432253
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733dd4f4776f419006613ab",
@@ -9484,7 +9692,8 @@
             "doc_id": "French_and_Indian_War::21",
             "score": 0.35150666459139057
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e121b7e3433e1400422c51",
@@ -9531,7 +9740,8 @@
             "doc_id": "Nikola_Tesla::58",
             "score": 0.5919153690338135
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572647935951b619008f6eca",
@@ -9578,7 +9788,8 @@
             "doc_id": "Black_Death::18",
             "score": 0.5329838447182478
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d68ed058e614000b637f",
@@ -9625,7 +9836,8 @@
             "doc_id": "French_and_Indian_War::41",
             "score": 0.47687030006775666
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0bcc0231d4119001ac36f",
@@ -9672,7 +9884,8 @@
             "doc_id": "Nikola_Tesla::35",
             "score": 0.6032591462135315
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0d54a7aa994140058e76a",
@@ -9719,7 +9932,8 @@
             "doc_id": "Nikola_Tesla::27",
             "score": 0.4507182836532593
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e108abe3433e1400422b0e",
@@ -9766,7 +9980,8 @@
             "doc_id": "Nikola_Tesla::61",
             "score": 0.639876663684845
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e122dacd28a01900c67639",
@@ -9813,7 +10028,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.5915291905403137
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e0ee12231d4119001ac45b",
@@ -9860,7 +10076,8 @@
             "doc_id": "Nikola_Tesla::20",
             "score": 0.5425039529800415
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d13e4776f419006612c6",
@@ -9907,7 +10124,8 @@
             "doc_id": "French_and_Indian_War::26",
             "score": 0.461179554773107
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0bebaf94a219006aa771",
@@ -9954,7 +10172,8 @@
             "doc_id": "Amazon_rainforest::15",
             "score": 0.41457893847846017
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e125b6e3433e1400422c6e",
@@ -10001,7 +10220,8 @@
             "doc_id": "Nikola_Tesla::78",
             "score": 0.581652045249939
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e12110e3433e1400422c4a",
@@ -10048,7 +10268,8 @@
             "doc_id": "Nikola_Tesla::83",
             "score": 0.6189271807670593
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572648ed5951b619008f6f03",
@@ -10095,7 +10316,8 @@
             "doc_id": "Black_Death::7",
             "score": 0.4979132653650511
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572648ed5951b619008f6f07",
@@ -10142,7 +10364,8 @@
             "doc_id": "Black_Death::4",
             "score": 0.5067031587523821
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733cff84776f419006612b5",
@@ -10189,7 +10412,8 @@
             "doc_id": "French_and_Indian_War::5",
             "score": 0.32221499018720157
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e0d54a7aa994140058e76b",
@@ -10236,7 +10460,8 @@
             "doc_id": "Nikola_Tesla::38",
             "score": 0.5372677445411682
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57283adcff5b5019007d9f97",
@@ -10283,7 +10508,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.6013087630271912
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725b81b271a42140099d09a",
@@ -10330,7 +10556,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.47111958265304565
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57283adcff5b5019007d9f94",
@@ -10377,7 +10604,8 @@
             "doc_id": "Amazon_rainforest::0",
             "score": 0.5260323882102966
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572648ed5951b619008f6f04",
@@ -10424,7 +10652,8 @@
             "doc_id": "Black_Death::2",
             "score": 0.47932177482176064
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265285708984140094c25d",
@@ -10471,7 +10700,8 @@
             "doc_id": "Black_Death::4",
             "score": 0.5239725009849773
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e059c8231d4119001ac059",
@@ -10518,7 +10748,8 @@
             "doc_id": "Nikola_Tesla::61",
             "score": 0.5450841188430786
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e0f019231d4119001ac470",
@@ -10565,7 +10796,8 @@
             "doc_id": "Nikola_Tesla::27",
             "score": 0.5941790342330933
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0c0c7231d4119001ac375",
@@ -10612,7 +10844,8 @@
             "doc_id": "Nikola_Tesla::7",
             "score": 0.5632661581039429
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725be0f271a42140099d117",
@@ -10659,7 +10892,8 @@
             "doc_id": "Amazon_rainforest::14",
             "score": 0.5307844511590833
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264f18f1498d1400e8dbaf",
@@ -10706,7 +10940,8 @@
             "doc_id": "Black_Death::7",
             "score": 0.48085042328904537
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f8dc4776f419006615fb",
@@ -10753,7 +10988,8 @@
             "doc_id": "French_and_Indian_War::17",
             "score": 0.41723831795951694
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57283d173acd2414000df78f",
@@ -10800,7 +11036,8 @@
             "doc_id": "Amazon_rainforest::7",
             "score": 0.5167625756085537
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340549d058e614000b67dd",
@@ -10847,7 +11084,8 @@
             "doc_id": "French_and_Indian_War::3",
             "score": 0.44789828906440055
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264fe65951b619008f6fa2",
@@ -10894,7 +11132,8 @@
             "doc_id": "Nikola_Tesla::58",
             "score": 0.26287955045700073
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56dfad0a7aa994140058dfcb",
@@ -10941,7 +11180,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.5754881501197815
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725d16aec44d21400f3d61c",
@@ -10988,7 +11228,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.4532594084739685
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0ef90231d4119001ac468",
@@ -11035,7 +11276,8 @@
             "doc_id": "Nikola_Tesla::14",
             "score": 0.5693840980529785
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572841772ca10214002da1a8",
@@ -11082,7 +11324,8 @@
             "doc_id": "Amazon_rainforest::13",
             "score": 0.4853160080558887
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f1784776f41900661576",
@@ -11129,7 +11372,8 @@
             "doc_id": "French_and_Indian_War::32",
             "score": 0.39643479600170894
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264d58f1498d1400e8db7a",
@@ -11176,7 +11420,8 @@
             "doc_id": "Black_Death::18",
             "score": 0.6335190211178372
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728349dff5b5019007d9eff",
@@ -11223,7 +11468,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.5711705856855233
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265700dd62a815002e8212",
@@ -11270,7 +11516,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.5820886922076078
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728455bff5b5019007da078",
@@ -11317,7 +11564,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.38592809438705444
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728455bff5b5019007da07c",
@@ -11364,7 +11612,8 @@
             "doc_id": "Amazon_rainforest::2",
             "score": 0.32047587633132935
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264684708984140094c126",
@@ -11411,7 +11660,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.536267125513078
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265700dd62a815002e820e",
@@ -11458,7 +11708,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.6045387167825478
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572647935951b619008f6ec9",
@@ -11505,7 +11756,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.316752192782765
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5725c63438643c19005acca0",
@@ -11552,7 +11804,8 @@
             "doc_id": "Amazon_rainforest::13",
             "score": 0.3201621503933516
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f2646aef051400155132",
@@ -11599,7 +11852,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.5792267002674154
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733dab4d058e614000b640a",
@@ -11646,7 +11900,8 @@
             "doc_id": "French_and_Indian_War::26",
             "score": 0.41929358759015
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d7cbd058e614000b63ad",
@@ -11693,7 +11948,8 @@
             "doc_id": "French_and_Indian_War::15",
             "score": 0.4895296037392387
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c95f38643c19005accf7",
@@ -11740,7 +11996,8 @@
             "doc_id": "Amazon_rainforest::8",
             "score": 0.4558826863849488
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f062d058e614000b6633",
@@ -11787,7 +12044,8 @@
             "doc_id": "French_and_Indian_War::22",
             "score": 0.3376448651505246
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725b81b271a42140099d09b",
@@ -11834,7 +12092,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.6121765375137329
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0c2bc231d4119001ac38b",
@@ -11881,7 +12140,8 @@
             "doc_id": "Nikola_Tesla::43",
             "score": 0.5735992193222046
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c071271a42140099d12a",
@@ -11928,7 +12188,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.21300748317446028
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264e2f708984140094c1e3",
@@ -11975,7 +12236,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.4561365852980309
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e089ab231d4119001ac287",
@@ -12022,7 +12284,8 @@
             "doc_id": "Nikola_Tesla::23",
             "score": 0.6552323698997498
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f0db6aef05140015512a",
@@ -12069,7 +12332,8 @@
             "doc_id": "Amazon_rainforest::5",
             "score": 0.566405177116394
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340549d058e614000b67de",
@@ -12116,7 +12380,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.31456366131455904
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0bab7231d4119001ac35c",
@@ -12163,7 +12428,8 @@
             "doc_id": "Nikola_Tesla::58",
             "score": 0.4838674068450928
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e11d8ecd28a01900c675f5",
@@ -12210,7 +12476,8 @@
             "doc_id": "Nikola_Tesla::52",
             "score": 0.247455894947052
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733fc6ed058e614000b6711",
@@ -12257,7 +12524,8 @@
             "doc_id": "Nikola_Tesla::34",
             "score": 0.24694395065307617
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e11d8ecd28a01900c675f3",
@@ -12304,7 +12572,8 @@
             "doc_id": "Nikola_Tesla::35",
             "score": 0.521898627281189
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265285708984140094c25b",
@@ -12351,7 +12620,8 @@
             "doc_id": "Black_Death::7",
             "score": 0.5337295093261452
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264e2f708984140094c1e2",
@@ -12398,7 +12668,8 @@
             "doc_id": "Black_Death::8",
             "score": 0.3989356333162033
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733ef47d058e614000b662d",
@@ -12445,7 +12716,8 @@
             "doc_id": "French_and_Indian_War::21",
             "score": 0.2693140861924854
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264cc6dd62a815002e80e8",
@@ -12492,7 +12764,8 @@
             "doc_id": "Black_Death::4",
             "score": 0.6491897042445371
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e11cedcd28a01900c675eb",
@@ -12539,7 +12812,8 @@
             "doc_id": "Nikola_Tesla::80",
             "score": 0.5499277710914612
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726722bdd62a815002e852c",
@@ -12586,7 +12860,8 @@
             "doc_id": "Amazon_rainforest::14",
             "score": 0.33610590965580334
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726534d708984140094c26e",
@@ -12633,7 +12908,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.49911820855844313
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10fbacd28a01900c6750c",
@@ -12680,7 +12956,8 @@
             "doc_id": "Nikola_Tesla::30",
             "score": 0.3159470558166504
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733fe73d058e614000b6740",
@@ -12727,7 +13004,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.4925854234778744
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f062d058e614000b6635",
@@ -12774,7 +13052,8 @@
             "doc_id": "French_and_Indian_War::41",
             "score": 0.4119395258537676
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e08b3c231d4119001ac2a5",
@@ -12821,7 +13100,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.42424261569976807
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57283adcff5b5019007d9f96",
@@ -12868,7 +13148,8 @@
             "doc_id": "Amazon_rainforest::4",
             "score": 0.41903722286224365
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c63438643c19005acc9f",
@@ -12915,7 +13196,8 @@
             "doc_id": "Nikola_Tesla::61",
             "score": 0.2471557855606079
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726509bdd62a815002e815c",
@@ -12962,7 +13244,8 @@
             "doc_id": "French_and_Indian_War::30",
             "score": 0.3026193839612693
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729ea263f37b319004785c0",
@@ -13009,7 +13292,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.31280102654375974
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10fbacd28a01900c6750a",
@@ -13056,7 +13340,8 @@
             "doc_id": "Black_Death::8",
             "score": 0.25606653112382594
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733eb34d058e614000b65cf",
@@ -13103,7 +13388,8 @@
             "doc_id": "French_and_Indian_War::9",
             "score": 0.2883468480384598
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c41eec44d21400f3d50c",
@@ -13150,7 +13436,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.278581205064797
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f5264776f419006615a3",
@@ -13197,7 +13484,8 @@
             "doc_id": "French_and_Indian_War::36",
             "score": 0.45388944573010237
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726516a708984140094c224",
@@ -13244,7 +13532,8 @@
             "doc_id": "Black_Death::6",
             "score": 0.6066894999421403
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733eb34d058e614000b65cd",
@@ -13291,7 +13580,8 @@
             "doc_id": "French_and_Indian_War::28",
             "score": 0.43010329620263055
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d249d058e614000b6332",
@@ -13338,7 +13628,8 @@
             "doc_id": "French_and_Indian_War::43",
             "score": 0.46841271582737787
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733eb34d058e614000b65ce",
@@ -13385,7 +13676,8 @@
             "doc_id": "French_and_Indian_War::28",
             "score": 0.38953818764138703
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729ea263f37b319004785bf",
@@ -13432,7 +13724,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.3198986262354486
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340a094776f4190066177e",
@@ -13479,7 +13772,8 @@
             "doc_id": "French_and_Indian_War::44",
             "score": 0.3847501988149876
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264c42dd62a815002e80c8",
@@ -13526,7 +13820,8 @@
             "doc_id": "Black_Death::1",
             "score": 0.446135297039987
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f410d058e614000b6665",
@@ -13573,7 +13868,8 @@
             "doc_id": "French_and_Indian_War::39",
             "score": 0.43744097268822835
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725cf3238643c19005acd64",
@@ -13620,7 +13916,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.37258195877075195
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264fe65951b619008f6fa1",
@@ -13667,7 +13964,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.24458387435998008
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265642f1498d1400e8dc69",
@@ -13714,7 +14012,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.7212085923660585
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572648ed5951b619008f6f06",
@@ -13761,7 +14060,8 @@
             "doc_id": "Black_Death::1",
             "score": 0.5630715107259565
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733fe73d058e614000b673d",
@@ -13808,7 +14108,8 @@
             "doc_id": "French_and_Indian_War::39",
             "score": 0.37696436839980973
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264991f1498d1400e8db2e",
@@ -13855,7 +14156,8 @@
             "doc_id": "Black_Death::18",
             "score": 0.5500840499137253
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725cbb289a1e219009abed4",
@@ -13902,7 +14204,8 @@
             "doc_id": "Black_Death::6",
             "score": 0.3340262525761927
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729fd56af94a219006aa732",
@@ -13949,7 +14252,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.5251125926013295
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e07c86231d4119001ac1d1",
@@ -13996,7 +14300,8 @@
             "doc_id": "Nikola_Tesla::29",
             "score": 0.5670936107635498
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733fc6ed058e614000b670f",
@@ -14043,7 +14348,8 @@
             "doc_id": "French_and_Indian_War::39",
             "score": 0.23984858781628637
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5726542ff1498d1400e8dc29",
@@ -14090,7 +14396,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.6280874474614623
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726722bdd62a815002e8528",
@@ -14137,7 +14444,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.5133828520774841
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264a74708984140094c18e",
@@ -14184,7 +14492,8 @@
             "doc_id": "Black_Death::19",
             "score": 0.48282764177347204
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a03a06aef0514001551ad",
@@ -14231,7 +14540,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.6066796779632568
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10a28cd28a01900c674b1",
@@ -14278,7 +14588,8 @@
             "doc_id": "Nikola_Tesla::51",
             "score": 0.54094398021698
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0b94b7aa994140058e6b8",
@@ -14325,7 +14636,8 @@
             "doc_id": "Nikola_Tesla::64",
             "score": 0.641275942325592
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264e2f708984140094c1e1",
@@ -14372,7 +14684,8 @@
             "doc_id": "Black_Death::13",
             "score": 0.35938060238242964
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfaa047aa994140058dfbe",
@@ -14419,7 +14732,8 @@
             "doc_id": "Nikola_Tesla::51",
             "score": 0.522838294506073
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728455bff5b5019007da07a",
@@ -14466,7 +14780,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.5139196850645106
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0d6367aa994140058e774",
@@ -14513,7 +14828,8 @@
             "doc_id": "Nikola_Tesla::63",
             "score": 0.5629445314407349
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733ea04d058e614000b6595",
@@ -14560,7 +14876,8 @@
             "doc_id": "French_and_Indian_War::28",
             "score": 0.3313265577908089
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726516a708984140094c227",
@@ -14607,7 +14924,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.24926486364622158
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f0db6aef051400155128",
@@ -14654,7 +14972,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.5820056981850379
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264cc6dd62a815002e80e5",
@@ -14701,7 +15020,8 @@
             "doc_id": "Black_Death::13",
             "score": 0.5702188472577798
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264845f1498d1400e8db0d",
@@ -14748,7 +15068,8 @@
             "doc_id": "Black_Death::11",
             "score": 0.5220828234261732
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729feaf6aef051400155188",
@@ -14795,7 +15116,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.595188558101654
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f9fa4776f4190066161f",
@@ -14842,7 +15164,8 @@
             "doc_id": "French_and_Indian_War::29",
             "score": 0.5169464463943804
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726542ff1498d1400e8dc2b",
@@ -14889,7 +15212,8 @@
             "doc_id": "Black_Death::21",
             "score": 0.6412838054005229
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57283d173acd2414000df792",
@@ -14936,7 +15260,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.2549014091491699
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733db8dd058e614000b6428",
@@ -14983,7 +15308,8 @@
             "doc_id": "French_and_Indian_War::21",
             "score": 0.32349357171484594
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0fd167aa994140058e881",
@@ -15030,7 +15356,8 @@
             "doc_id": "Nikola_Tesla::27",
             "score": 0.5251848101615906
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0c1617aa994140058e6d9",
@@ -15077,7 +15404,8 @@
             "doc_id": "Nikola_Tesla::27",
             "score": 0.6063894629478455
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5734025d4776f419006616c3",
@@ -15124,7 +15452,8 @@
             "doc_id": "French_and_Indian_War::32",
             "score": 0.32940422644453204
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfb5f5231d4119001abcb5",
@@ -15171,7 +15500,8 @@
             "doc_id": "Nikola_Tesla::15",
             "score": 0.5582066774368286
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733ea04d058e614000b6596",
@@ -15218,7 +15548,8 @@
             "doc_id": "French_and_Indian_War::28",
             "score": 0.3057194508930762
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e05a78231d4119001ac063",
@@ -15265,7 +15596,8 @@
             "doc_id": "French_and_Indian_War::1",
             "score": 0.3581783382427296
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "572a09abaf94a219006aa75e",
@@ -15312,7 +15644,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.5078425407409668
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265285708984140094c25e",
@@ -15359,7 +15692,8 @@
             "doc_id": "Black_Death::1",
             "score": 0.5832242984834494
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0dbb57aa994140058e77a",
@@ -15406,7 +15740,8 @@
             "doc_id": "Nikola_Tesla::1",
             "score": 0.5354334712028503
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265642f1498d1400e8dc68",
@@ -15453,7 +15788,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.6452863137414866
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c071271a42140099d12b",
@@ -15500,7 +15836,8 @@
             "doc_id": "Nikola_Tesla::19",
             "score": 0.17831206321716309
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0cbf3231d4119001ac3af",
@@ -15547,7 +15884,8 @@
             "doc_id": "Nikola_Tesla::17",
             "score": 0.5928388833999634
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f3831d0469140077967b",
@@ -15594,7 +15932,8 @@
             "doc_id": "Amazon_rainforest::0",
             "score": 0.38921093940734863
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726559edd62a815002e81c8",
@@ -15641,7 +15980,8 @@
             "doc_id": "Amazon_rainforest::6",
             "score": 0.2609950304031372
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5726542ff1498d1400e8dc28",
@@ -15688,7 +16028,8 @@
             "doc_id": "Black_Death::21",
             "score": 0.6195050785276031
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e11044e3433e1400422b76",
@@ -15735,7 +16076,8 @@
             "doc_id": "Nikola_Tesla::19",
             "score": 0.6184864044189453
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e07c86231d4119001ac1d0",
@@ -15782,7 +16124,8 @@
             "doc_id": "Nikola_Tesla::0",
             "score": 0.6547024846076965
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264684708984140094c123",
@@ -15829,7 +16172,8 @@
             "doc_id": "Black_Death::2",
             "score": 0.564241336042096
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733cff84776f419006612b6",
@@ -15876,7 +16220,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.3041372035210266
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f8dc4776f419006615f7",
@@ -15923,7 +16268,8 @@
             "doc_id": "French_and_Indian_War::18",
             "score": 0.43188353091578
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e089ab231d4119001ac289",
@@ -15970,7 +16316,8 @@
             "doc_id": "Nikola_Tesla::51",
             "score": 0.5518582463264465
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733ea04d058e614000b6597",
@@ -16017,7 +16364,8 @@
             "doc_id": "French_and_Indian_War::17",
             "score": 0.29988837679419444
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340111d058e614000b677e",
@@ -16064,7 +16412,8 @@
             "doc_id": "French_and_Indian_War::21",
             "score": 0.37733079455216045
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10ddce3433e1400422b4b",
@@ -16111,7 +16460,8 @@
             "doc_id": "Nikola_Tesla::11",
             "score": 0.2771412134170532
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0bcc0231d4119001ac36b",
@@ -16158,7 +16508,8 @@
             "doc_id": "Nikola_Tesla::1",
             "score": 0.5740852355957031
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733e5a14776f4190066145f",
@@ -16205,7 +16556,8 @@
             "doc_id": "French_and_Indian_War::25",
             "score": 0.3608620022305795
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572648ed5951b619008f6f05",
@@ -16252,7 +16604,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.6025473353901982
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5726509bdd62a815002e815b",
@@ -16299,7 +16652,8 @@
             "doc_id": "Black_Death::2",
             "score": 0.5013734856894786
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264991f1498d1400e8db31",
@@ -16346,7 +16700,8 @@
             "doc_id": "French_and_Indian_War::41",
             "score": 0.30174942351535294
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729e6313f37b319004785a9",
@@ -16393,7 +16748,8 @@
             "doc_id": "Amazon_rainforest::11",
             "score": 0.5172183745117915
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340111d058e614000b677f",
@@ -16440,7 +16796,8 @@
             "doc_id": "French_and_Indian_War::31",
             "score": 0.45784342618172924
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e11161e3433e1400422b89",
@@ -16487,7 +16844,8 @@
             "doc_id": "Nikola_Tesla::10",
             "score": 0.2900228500366211
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e07c86231d4119001ac1cf",
@@ -16534,7 +16892,8 @@
             "doc_id": "Nikola_Tesla::23",
             "score": 0.3202242851257324
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57283adcff5b5019007d9f98",
@@ -16581,7 +16940,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.5454617180197939
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572654e2708984140094c2b7",
@@ -16628,7 +16988,8 @@
             "doc_id": "Black_Death::4",
             "score": 0.6895231518211099
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264d58f1498d1400e8db7c",
@@ -16675,7 +17036,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.5720848469695122
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d13e4776f419006612c7",
@@ -16722,7 +17084,8 @@
             "doc_id": "French_and_Indian_War::40",
             "score": 0.5877589277698886
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0f019231d4119001ac472",
@@ -16769,7 +17132,8 @@
             "doc_id": "Nikola_Tesla::14",
             "score": 0.3802397847175598
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264684708984140094c127",
@@ -16816,7 +17180,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.5949052449645511
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733cf61d058e614000b62ea",
@@ -16863,7 +17228,8 @@
             "doc_id": "French_and_Indian_War::1",
             "score": 0.533648028827262
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56dfa24a38dc421700152142",
@@ -16910,7 +17276,8 @@
             "doc_id": "Nikola_Tesla::9",
             "score": 0.6197956800460815
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733fd66d058e614000b6738",
@@ -16957,7 +17324,8 @@
             "doc_id": "French_and_Indian_War::19",
             "score": 0.41386398661920687
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725d16aec44d21400f3d61f",
@@ -17004,7 +17372,8 @@
             "doc_id": "Amazon_rainforest::12",
             "score": 0.3998406018298135
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729f2646aef051400155134",
@@ -17051,7 +17420,8 @@
             "doc_id": "Amazon_rainforest::13",
             "score": 0.600970303955073
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0d9e0231d4119001ac43f",
@@ -17098,7 +17468,8 @@
             "doc_id": "Nikola_Tesla::1",
             "score": 0.6181144714355469
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264c42dd62a815002e80c7",
@@ -17145,7 +17516,8 @@
             "doc_id": "Black_Death::11",
             "score": 0.6306764939479852
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e110c3cd28a01900c67532",
@@ -17192,7 +17564,8 @@
             "doc_id": "Nikola_Tesla::3",
             "score": 0.6286843419075012
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726534d708984140094c271",
@@ -17239,7 +17612,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.401417732688629
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725d16aec44d21400f3d61b",
@@ -17286,7 +17660,8 @@
             "doc_id": "Amazon_rainforest::17",
             "score": 0.31369569324285806
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f9fa4776f41900661620",
@@ -17333,7 +17708,8 @@
             "doc_id": "French_and_Indian_War::3",
             "score": 0.4427984907933298
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d249d058e614000b6331",
@@ -17380,7 +17756,8 @@
             "doc_id": "French_and_Indian_War::8",
             "score": 0.42009305863268953
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264845f1498d1400e8db0b",
@@ -17427,7 +17804,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.37143527763388284
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733db8dd058e614000b6429",
@@ -17474,7 +17852,8 @@
             "doc_id": "French_and_Indian_War::21",
             "score": 0.3508359130312305
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725cbb289a1e219009abed5",
@@ -17521,7 +17900,8 @@
             "doc_id": "Amazon_rainforest::2",
             "score": 0.3012286424636841
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729feaf6aef051400155189",
@@ -17568,7 +17948,8 @@
             "doc_id": "Amazon_rainforest::19",
             "score": 0.6017176953487574
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e08f4a231d4119001ac2bb",
@@ -17615,7 +17996,8 @@
             "doc_id": "Nikola_Tesla::34",
             "score": 0.2546995282173157
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e1127bcd28a01900c6754c",
@@ -17662,7 +18044,8 @@
             "doc_id": "French_and_Indian_War::10",
             "score": 0.23086613229174424
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d3cb4776f419006612eb",
@@ -17709,7 +18092,8 @@
             "doc_id": "French_and_Indian_War::3",
             "score": 0.4807921067866756
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725cbb289a1e219009abed6",
@@ -17756,7 +18140,8 @@
             "doc_id": "Black_Death::0",
             "score": 0.2312431405472024
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725cf3238643c19005acd63",
@@ -17803,7 +18188,8 @@
             "doc_id": "Black_Death::1",
             "score": 0.2940551555684414
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725cbb289a1e219009abed3",
@@ -17850,7 +18236,8 @@
             "doc_id": "Amazon_rainforest::17",
             "score": 0.40604548785291605
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729ea263f37b319004785bd",
@@ -17897,7 +18284,8 @@
             "doc_id": "Amazon_rainforest::18",
             "score": 0.38993355893169546
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f5f24776f419006615c3",
@@ -17944,7 +18332,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.4125567453046257
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340d124776f419006617c1",
@@ -17991,7 +18380,8 @@
             "doc_id": "French_and_Indian_War::43",
             "score": 0.4298072174085322
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726509bdd62a815002e815d",
@@ -18038,7 +18428,8 @@
             "doc_id": "Nikola_Tesla::89",
             "score": 0.22108304500579834
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726542ff1498d1400e8dc2a",
@@ -18085,7 +18476,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.5304588529706558
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725be0f271a42140099d11a",
@@ -18132,7 +18524,8 @@
             "doc_id": "French_and_Indian_War::18",
             "score": 0.29695881233738386
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264a74708984140094c18f",
@@ -18179,7 +18572,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.6180993200383231
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56dfb6d17aa994140058e057",
@@ -18226,7 +18620,8 @@
             "doc_id": "Nikola_Tesla::20",
             "score": 0.3413503170013428
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a020f6aef05140015519a",
@@ -18273,7 +18668,8 @@
             "doc_id": "Amazon_rainforest::7",
             "score": 0.5152260307883291
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264d58f1498d1400e8db7d",
@@ -18320,7 +18716,8 @@
             "doc_id": "Black_Death::19",
             "score": 0.5850665644565602
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733f7b9d058e614000b66a9",
@@ -18367,7 +18764,8 @@
             "doc_id": "French_and_Indian_War::42",
             "score": 0.38940104210029136
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5726516a708984140094c226",
@@ -18414,7 +18812,8 @@
             "doc_id": "Amazon_rainforest::8",
             "score": 0.23238828688561974
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264a74708984140094c18d",
@@ -18461,7 +18860,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.40481860794915336
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56df9ee138dc42170015210c",
@@ -18508,7 +18908,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.5745990872383118
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733e8ae4776f419006614a8",
@@ -18555,7 +18956,8 @@
             "doc_id": "French_and_Indian_War::28",
             "score": 0.3019894803525198
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733cf61d058e614000b62ec",
@@ -18602,7 +19004,8 @@
             "doc_id": "French_and_Indian_War::11",
             "score": 0.44469574116695343
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340a094776f41900661780",
@@ -18649,7 +19052,8 @@
             "doc_id": "French_and_Indian_War::4",
             "score": 0.4718242939612367
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264b3edd62a815002e80ac",
@@ -18696,7 +19100,8 @@
             "doc_id": "Black_Death::19",
             "score": 0.644107944063745
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729eb34af94a219006aa6cb",
@@ -18743,7 +19148,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.583050856310053
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733dc95d058e614000b644d",
@@ -18790,7 +19196,8 @@
             "doc_id": "French_and_Indian_War::18",
             "score": 0.29138849426766045
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573407d7d058e614000b6813",
@@ -18837,7 +19244,8 @@
             "doc_id": "French_and_Indian_War::42",
             "score": 0.5006108552981468
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10e73cd28a01900c674ec",
@@ -18884,7 +19292,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.3610619902610779
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264d58f1498d1400e8db7b",
@@ -18931,7 +19340,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.532855853503871
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264a74708984140094c18c",
@@ -18978,7 +19388,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.4375283705701287
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d13e4776f419006612c8",
@@ -19025,7 +19436,8 @@
             "doc_id": "French_and_Indian_War::41",
             "score": 0.43527696613884714
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5725cf3238643c19005acd65",
@@ -19072,7 +19484,8 @@
             "doc_id": "Black_Death::5",
             "score": 0.2545854461077569
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e10e73cd28a01900c674eb",
@@ -19119,7 +19532,8 @@
             "doc_id": "Nikola_Tesla::63",
             "score": 0.6041490435600281
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0d6cf231d4119001ac420",
@@ -19166,7 +19580,8 @@
             "doc_id": "Nikola_Tesla::18",
             "score": 0.5496633052825928
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729edd56aef051400155114",
@@ -19213,7 +19628,8 @@
             "doc_id": "Amazon_rainforest::7",
             "score": 0.48031645225222275
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726559edd62a815002e81c9",
@@ -19260,7 +19676,8 @@
             "doc_id": "Black_Death::2",
             "score": 0.45799405284819117
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5725c41eec44d21400f3d50b",
@@ -19307,7 +19724,8 @@
             "doc_id": "Black_Death::6",
             "score": 0.0942820347313581
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733fb7bd058e614000b6701",
@@ -19354,7 +19772,8 @@
             "doc_id": "French_and_Indian_War::39",
             "score": 0.45287570821870793
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728349dff5b5019007d9efe",
@@ -19401,7 +19820,8 @@
             "doc_id": "Amazon_rainforest::17",
             "score": 0.48378806956740894
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10c61e3433e1400422b38",
@@ -19448,7 +19868,8 @@
             "doc_id": "Nikola_Tesla::72",
             "score": 0.5049355626106262
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264b3edd62a815002e80ad",
@@ -19495,7 +19916,8 @@
             "doc_id": "Black_Death::13",
             "score": 0.25933534049072904
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0c2307aa994140058e6e2",
@@ -19542,7 +19964,8 @@
             "doc_id": "Nikola_Tesla::2",
             "score": 0.5986868143081665
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733f8dc4776f419006615f8",
@@ -19589,7 +20012,8 @@
             "doc_id": "French_and_Indian_War::17",
             "score": 0.3642803726970707
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5726559edd62a815002e81ca",
@@ -19636,7 +20060,8 @@
             "doc_id": "Black_Death::17",
             "score": 0.564310544430149
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572647935951b619008f6ecb",
@@ -19683,7 +20108,8 @@
             "doc_id": "Black_Death::13",
             "score": 0.5812794697533671
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264991f1498d1400e8db30",
@@ -19730,7 +20156,8 @@
             "doc_id": "Black_Death::20",
             "score": 0.518011506311398
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a0b101d046914007796ec",
@@ -19777,7 +20204,8 @@
             "doc_id": "Amazon_rainforest::15",
             "score": 0.6038878054919775
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572841772ca10214002da1a7",
@@ -19824,7 +20252,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.5582148866814021
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733dd4f4776f419006613aa",
@@ -19871,7 +20300,8 @@
             "doc_id": "French_and_Indian_War::9",
             "score": 0.36852858470612104
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5729e2316aef0514001550c8",
@@ -19918,7 +20348,8 @@
             "doc_id": "Amazon_rainforest::3",
             "score": 0.5922812223434448
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733d68ed058e614000b6380",
@@ -19965,7 +20396,8 @@
             "doc_id": "French_and_Indian_War::13",
             "score": 0.40888423669132723
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57265285708984140094c25c",
@@ -20012,7 +20444,8 @@
             "doc_id": "Black_Death::1",
             "score": 0.49267227849922346
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e05900231d4119001ac04f",
@@ -20059,7 +20492,8 @@
             "doc_id": "Nikola_Tesla::14",
             "score": 0.6515835523605347
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264fe65951b619008f6fa4",
@@ -20106,7 +20540,8 @@
             "doc_id": "Black_Death::16",
             "score": 0.23295314151019797
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725c41eec44d21400f3d50d",
@@ -20153,7 +20588,8 @@
             "doc_id": "Nikola_Tesla::83",
             "score": 0.3082609176635742
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "57264b3edd62a815002e80ab",
@@ -20200,7 +20636,8 @@
             "doc_id": "Black_Death::12",
             "score": 0.31313317696852594
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57340d124776f419006617bf",
@@ -20247,7 +20684,8 @@
             "doc_id": "French_and_Indian_War::3",
             "score": 0.4097038582182777
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5733f9fa4776f41900661621",
@@ -20294,7 +20732,8 @@
             "doc_id": "French_and_Indian_War::38",
             "score": 0.4814634992612752
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264fe65951b619008f6fa3",
@@ -20341,7 +20780,8 @@
             "doc_id": "Black_Death::15",
             "score": 0.5659996332442039
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5728349dff5b5019007d9f01",
@@ -20388,7 +20828,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.6304891894410978
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5733ffa7d058e614000b6750",
@@ -20435,7 +20876,8 @@
             "doc_id": "French_and_Indian_War::27",
             "score": 0.4814361753901668
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e05a78231d4119001ac062",
@@ -20482,7 +20924,8 @@
             "doc_id": "French_and_Indian_War::10",
             "score": 0.3489325292921671
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "56e1262fcd28a01900c67657",
@@ -20529,7 +20972,8 @@
             "doc_id": "Nikola_Tesla::35",
             "score": 0.5592947602272034
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e1254ae3433e1400422c68",
@@ -20576,7 +21020,8 @@
             "doc_id": "Nikola_Tesla::84",
             "score": 0.31751394271850586
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e10043e3433e1400422a84",
@@ -20623,7 +21068,8 @@
             "doc_id": "Nikola_Tesla::52",
             "score": 0.6360304951667786
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "573408ef4776f4190066175a",
@@ -20670,7 +21116,8 @@
             "doc_id": "French_and_Indian_War::39",
             "score": 0.4914848624009398
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "572a005f1d046914007796b9",
@@ -20717,7 +21164,8 @@
             "doc_id": "Amazon_rainforest::20",
             "score": 0.45298036594839897
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "56e0ccaa7aa994140058e719",
@@ -20764,7 +21212,8 @@
             "doc_id": "Nikola_Tesla::80",
             "score": 0.6169903874397278
           }
-        ]
+        ],
+        "context_recall": 0.0
       },
       {
         "id": "5726534d708984140094c26f",
@@ -20811,7 +21260,8 @@
             "doc_id": "Black_Death::10",
             "score": 0.5805498796893654
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "5725b81b271a42140099d098",
@@ -20858,7 +21308,8 @@
             "doc_id": "Amazon_rainforest::12",
             "score": 0.5339160908875722
           }
-        ]
+        ],
+        "context_recall": 1.0
       },
       {
         "id": "57264d58f1498d1400e8db7e",
@@ -20905,9 +21356,11 @@
             "doc_id": "Black_Death::15",
             "score": 0.5155792800524371
           }
-        ]
+        ],
+        "context_recall": 1.0
       }
-    ]
+    ],
+    "mean_context_recall": 0.8648648648648649
   },
   "closed_book": {
     "strategy": "closed_book",
@@ -20930,22 +21383,30 @@
       "Amazon_rainforest": {
         "n": 112,
         "mean_em": 0.08035714285714286,
-        "mean_f1": 0.23771245935795413
+        "mean_f1": 0.23771245935795413,
+        "mean_faithfulness": 0.0,
+        "mean_context_recall": null
       },
       "Black_Death": {
         "n": 108,
         "mean_em": 0.018518518518518517,
-        "mean_f1": 0.132273975569276
+        "mean_f1": 0.132273975569276,
+        "mean_faithfulness": 0.0,
+        "mean_context_recall": null
       },
       "French_and_Indian_War": {
         "n": 112,
         "mean_em": 0.0625,
-        "mean_f1": 0.2031303768055567
+        "mean_f1": 0.2031303768055567,
+        "mean_faithfulness": 0.017857142857142856,
+        "mean_context_recall": null
       },
       "Nikola_Tesla": {
         "n": 112,
         "mean_em": 0.08035714285714286,
-        "mean_f1": 0.2326599749518259
+        "mean_f1": 0.2326599749518259,
+        "mean_faithfulness": 0.017857142857142856,
+        "mean_context_recall": null
       }
     },
     "per_question": [

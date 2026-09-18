@@ -1,5 +1,5 @@
-"""Evaluation harness: correctness (EM/F1) + faithfulness (RAGAS) + latency + cost,
-with the 2x2 faithfulness x correctness matrix per retrieval strategy.
+"""Evaluation harness: correctness (EM/F1) + faithfulness (RAGAS) + context recall + latency
++ cost, with the 2x2 faithfulness x correctness matrix per retrieval strategy.
 
 Covers the Mid-Sem harness deliverable (Midsem_Plan.md §2 item 5) and the examiner-feedback
 fix (Examiner_Feedback_Response.md §2): the closed-book baseline plus the correct-but-unfaithful
@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from dotenv import load_dotenv
 
 from rag.config import load_config, resolve_path
+from rag.context_recall import build_context_to_doc_id, context_recall_hit, gold_doc_id_for
 from rag.embeddings import get_embedder
 from rag.faithfulness import build_faithfulness_metric, score_faithfulness
 from rag.generation import generate_answer
@@ -113,7 +114,12 @@ def per_topic_breakdown(per_question: list[dict]) -> dict:
 
 
 def run_strategy(
-    strategy: str, ground_truth: list[dict], cfg: dict, limit: int | None, faithfulness_enabled: bool
+    strategy: str,
+    ground_truth: list[dict],
+    cfg: dict,
+    limit: int | None,
+    faithfulness_enabled: bool,
+    context_to_doc_id: dict[str, str],
 ) -> dict:
     store = None
     if strategy != "closed_book":
@@ -151,6 +157,10 @@ def run_strategy(
             faith_score = score_faithfulness(faith_metric, qa["question"], result["answer"], chunks)
             faithful = faith_score >= faith_threshold
 
+        # Context recall: did retrieval fetch the gold source paragraph? (retrieval-only; deterministic)
+        gold_doc_id = gold_doc_id_for(qa, context_to_doc_id)
+        context_recall = context_recall_hit(gold_doc_id, {c.doc_id for c in chunks})
+
         per_question.append(
             {
                 "id": qa["id"],
@@ -161,6 +171,7 @@ def run_strategy(
                 "correct": f1 >= correct_threshold,
                 "faithfulness": faith_score,
                 "faithful": faithful,
+                "context_recall": context_recall,
                 "latency_s": latency_s,
                 "cost_usd": cost_usd,
                 "prompt_tokens": usage["prompt_tokens"],
@@ -172,6 +183,7 @@ def run_strategy(
 
     n = len(per_question)
     faith_scores = [r["faithfulness"] for r in per_question if r["faithfulness"] is not None]
+    recall_scores = [r["context_recall"] for r in per_question if r["context_recall"] is not None]
     costs = [r["cost_usd"] for r in per_question if r["cost_usd"] is not None]
     return {
         "strategy": strategy,
@@ -179,6 +191,7 @@ def run_strategy(
         "mean_em": _mean([r["em"] for r in per_question]),
         "mean_f1": _mean([r["f1"] for r in per_question]),
         "mean_faithfulness": _mean(faith_scores) if faith_scores else None,
+        "mean_context_recall": _mean(recall_scores) if recall_scores else None,
         "mean_latency_s": _mean([r["latency_s"] for r in per_question]),
         "total_cost_usd": sum(costs) if costs else None,
         "mean_cost_usd": _mean(costs) if costs else None,
@@ -192,6 +205,43 @@ def _fmt(value, spec="{:.3f}"):
     return spec.format(value) if value is not None else "n/a"
 
 
+def recompute_context_recall(cfg: dict) -> None:
+    """Backfill context recall on an existing eval_run.json, offline — no API key, no rerun.
+
+    Context recall depends only on retrieval, which is already stored (retrieved-chunk doc_ids),
+    so it can be recomputed deterministically from the results file for every strategy that
+    retrieved context. Useful to add the metric to an older run, or to reproduce the numbers
+    without paying for the LLM steps again. Skips no-retrieval strategies (e.g. closed_book).
+    """
+    out_path = resolve_path(cfg, cfg["evaluation"]["results_path"]) / "eval_run.json"
+    with open(out_path) as f:
+        results = json.load(f)
+
+    gt_path = resolve_path(cfg, cfg["corpus"]["ground_truth_path"])
+    with open(gt_path) as f:
+        ground_truth = json.load(f)
+    context_to_doc_id = build_context_to_doc_id(cfg)
+    gold_doc_id_by_id = {qa["id"]: gold_doc_id_for(qa, context_to_doc_id) for qa in ground_truth}
+
+    for strategy, r in results.items():
+        per_question = r.get("per_question", [])
+        if not (per_question and per_question[0].get("retrieved_chunks")):
+            continue  # no retrieval → nothing to recall
+        for qa_result in per_question:
+            retrieved_doc_ids = {c["doc_id"] for c in qa_result.get("retrieved_chunks", [])}
+            qa_result["context_recall"] = context_recall_hit(gold_doc_id_by_id.get(qa_result["id"]), retrieved_doc_ids)
+        recall_scores = [q["context_recall"] for q in per_question if q["context_recall"] is not None]
+        r["mean_context_recall"] = _mean(recall_scores) if recall_scores else None
+        print(
+            f"  [{strategy}] context recall = {_fmt(r['mean_context_recall'])}  "
+            f"({int(sum(recall_scores))}/{len(recall_scores)} hits @ top-k)"
+        )
+
+    with open(out_path, "w") as f:
+        json.dump(results, f, indent=2)
+    print(f"\nRecomputed context recall in {out_path}")
+
+
 def main():
     load_dotenv()
     parser = argparse.ArgumentParser()
@@ -203,22 +253,35 @@ def main():
         action="store_false",
         help="skip the RAGAS faithfulness judge (faster/cheaper; EM/F1/latency/cost only)",
     )
+    parser.add_argument(
+        "--recompute-context-recall",
+        action="store_true",
+        help="offline: backfill context recall on the existing eval_run.json (no API key, no rerun) and exit",
+    )
     parser.set_defaults(faithfulness=True)
     args = parser.parse_args()
 
     cfg = load_config()
+
+    if args.recompute_context_recall:
+        recompute_context_recall(cfg)
+        return
+
     gt_path = resolve_path(cfg, cfg["corpus"]["ground_truth_path"])
     with open(gt_path) as f:
         ground_truth = json.load(f)
 
+    context_to_doc_id = build_context_to_doc_id(cfg)  # gold-paragraph lookup for context recall
+
     results = {}
     for strategy in args.strategies.split(","):
         print(f"Running strategy: {strategy} (n={args.limit or len(ground_truth)})")
-        r = run_strategy(strategy, ground_truth, cfg, args.limit, args.faithfulness)
+        r = run_strategy(strategy, ground_truth, cfg, args.limit, args.faithfulness, context_to_doc_id)
         results[strategy] = r
         print(
             f"  EM={_fmt(r['mean_em'])}  F1={_fmt(r['mean_f1'])}  "
             f"faithfulness={_fmt(r['mean_faithfulness'])}  "
+            f"context_recall={_fmt(r['mean_context_recall'])}  "
             f"latency={_fmt(r['mean_latency_s'], '{:.2f}')}s  cost/q=${_fmt(r['mean_cost_usd'], '{:.5f}')}"
         )
         if r["confusion_matrix"]:
