@@ -1,0 +1,47 @@
+# Default run configuration.
+# Every stage of the pipeline reads from here so a single file drives
+# ingestion, indexing, retrieval, generation, and evaluation.
+
+seed: 42
+
+corpus:
+  source: squad_dev          # SQUAD/dev-v1.1.json
+  path: "../../../SQUAD/dev-v1.1.json"   # repo root, relative to workroom (workroom/midsem/Submissions/root)
+  topics:                    # locked per Midsem_Plan.md decisions log
+    - Nikola_Tesla
+    - Amazon_rainforest
+    - Black_Death
+    - French_and_Indian_War
+  ground_truth_path: "./data/ground_truth.json"
+  sample_size: 450            # total questions across all topics (300-500 range)
+  per_topic: true             # stratify evenly across `topics`
+
+chunking:
+  chunk_size: 256              # tokens (also try 512 in the Final sweep)
+  chunk_overlap: 32
+
+embedding:
+  provider: sentence-transformers
+  model: all-MiniLM-L6-v2
+
+vectorstore:
+  backend: chroma
+  persist_path: "./data/chroma_db"
+  collection_name: squad_midsem
+
+retriever:
+  strategy: dense               # dense | bm25 | hybrid | rerank | closed_book
+  top_k: 5                      # also try 3 in the Final sweep
+
+generation:
+  provider: openai              # openai | anthropic
+  model: openai.gpt-oss-120b           # keep fixed across all strategies for a fair comparison
+  temperature: 0.0
+
+evaluation:
+  llm_judge_provider: openai     # same model as generation, per master plan
+  llm_judge_model: openai.gpt-oss-120b
+  manual_validation_sample: 50
+  faithfulness_threshold: 0.5    # RAGAS faithfulness >= this counts as "faithful" in the 2x2 matrix
+  correctness_threshold: 0.5     # token-F1 >= this counts as "correct" in the 2x2 matrix
+  results_path: "./results"

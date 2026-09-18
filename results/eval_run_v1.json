@@ -1,0 +1,359 @@
+{
+  "dense": {
+    "strategy": "dense",
+    "n": 10,
+    "mean_em": 0.2,
+    "mean_f1": 0.4084343434343435,
+    "mean_faithfulness": 0.6166666666666667,
+    "mean_latency_s": 3.0928719331976025,
+    "total_cost_usd": 0.00230115,
+    "mean_cost_usd": 0.000230115,
+    "confusion_matrix": {
+      "faithful_correct": 3,
+      "faithful_incorrect": 4,
+      "unfaithful_correct": 1,
+      "unfaithful_incorrect": 2,
+      "n_scored": 10,
+      "correct_but_unfaithful_rate": 0.1
+    },
+    "per_topic": {
+      "Amazon_rainforest": {
+        "n": 5,
+        "mean_em": 0.0,
+        "mean_f1": 0.33909090909090905
+      },
+      "Black_Death": {
+        "n": 2,
+        "mean_em": 0.5,
+        "mean_f1": 0.5833333333333334
+      },
+      "French_and_Indian_War": {
+        "n": 1,
+        "mean_em": 1.0,
+        "mean_f1": 1.0
+      },
+      "Nikola_Tesla": {
+        "n": 2,
+        "mean_em": 0.0,
+        "mean_f1": 0.11111111111111112
+      }
+    },
+    "per_question": [
+      {
+        "id": "57265642f1498d1400e8dc6b",
+        "topic": "Black_Death",
+        "em": 0,
+        "f1": 0.16666666666666669,
+        "correct": false,
+        "faithfulness": 0.5,
+        "faithful": true,
+        "latency_s": 4.21608883299632,
+        "cost_usd": 0.0003852,
+        "prompt_tokens": 1008,
+        "completion_tokens": 390,
+        "prediction": "The plague outbreak linked to troop movements during the Thirty\u202fYears\u2019\u202fWar\u30101\u3011."
+      },
+      {
+        "id": "572a064a3f37b3190047865d",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.4,
+        "correct": false,
+        "faithfulness": 0.0,
+        "faithful": false,
+        "latency_s": 3.459748542009038,
+        "cost_usd": 0.00024239999999999998,
+        "prompt_tokens": 1040,
+        "completion_tokens": 144,
+        "prediction": "Forested (rain\u2011forest) territories\u202f[1]"
+      },
+      {
+        "id": "5733d2dbd058e614000b633a",
+        "topic": "French_and_Indian_War",
+        "em": 1,
+        "f1": 1.0,
+        "correct": true,
+        "faithfulness": 1.0,
+        "faithful": true,
+        "latency_s": 2.7401636249996955,
+        "cost_usd": 0.00022124999999999998,
+        "prompt_tokens": 915,
+        "completion_tokens": 140,
+        "prediction": "French Louisiana west of the Mississippi River (including New\u202fOrleans)\u202f[1][2]"
+      },
+      {
+        "id": "5728455bff5b5019007da07b",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.7499999999999999,
+        "correct": true,
+        "faithfulness": 0.0,
+        "faithful": false,
+        "latency_s": 2.7451959169993643,
+        "cost_usd": 0.00022485,
+        "prompt_tokens": 979,
+        "completion_tokens": 130,
+        "prediction": "132\u202fmillion\u202ftons\u202fper\u202fyear\u30101\u3011"
+      },
+      {
+        "id": "5725be0f271a42140099d11b",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": 1.0,
+        "faithful": true,
+        "latency_s": 2.354012582989526,
+        "cost_usd": 0.00019544999999999998,
+        "prompt_tokens": 979,
+        "completion_tokens": 81,
+        "prediction": "Yes\u202f[2]"
+      },
+      {
+        "id": "57264845f1498d1400e8db0c",
+        "topic": "Black_Death",
+        "em": 1,
+        "f1": 1.0,
+        "correct": true,
+        "faithfulness": 1.0,
+        "faithful": true,
+        "latency_s": 1.9692607909964863,
+        "cost_usd": 0.00018855,
+        "prompt_tokens": 993,
+        "completion_tokens": 66,
+        "prediction": "Infected corpses\u202f[2]"
+      },
+      {
+        "id": "56e0ff5dcd28a01900c673fd",
+        "topic": "Nikola_Tesla",
+        "em": 0,
+        "f1": 0.22222222222222224,
+        "correct": false,
+        "faithfulness": 0.6666666666666666,
+        "faithful": true,
+        "latency_s": 2.36362737500167,
+        "cost_usd": 0.000147,
+        "prompt_tokens": 724,
+        "completion_tokens": 64,
+        "prediction": "Powerful high\u2011frequency currents induced in the dynamos, causing heavy sparks that burned out their windings\u30101\u3011."
+      },
+      {
+        "id": "56e1127bcd28a01900c6754a",
+        "topic": "Nikola_Tesla",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": 0.0,
+        "faithful": false,
+        "latency_s": 6.86512099999527,
+        "cost_usd": 0.0002967,
+        "prompt_tokens": 610,
+        "completion_tokens": 342,
+        "prediction": "Nikola\u202fTesla\u202fJr."
+      },
+      {
+        "id": "572a07c11d046914007796d5",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": 1.0,
+        "faithful": true,
+        "latency_s": 2.3445417499897303,
+        "cost_usd": 0.00022169999999999997,
+        "prompt_tokens": 906,
+        "completion_tokens": 143,
+        "prediction": "Handheld GPS devices (used with tools like Google\u202fEarth)\u202f[1]"
+      },
+      {
+        "id": "572a020f6aef051400155198",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.5454545454545454,
+        "correct": true,
+        "faithfulness": 1.0,
+        "faithful": true,
+        "latency_s": 1.8709589159989264,
+        "cost_usd": 0.00017805,
+        "prompt_tokens": 979,
+        "completion_tokens": 52,
+        "prediction": "Loss of biodiversity and the release of stored carbon\u202f[1]"
+      }
+    ]
+  },
+  "closed_book": {
+    "strategy": "closed_book",
+    "n": 10,
+    "mean_em": 0.0,
+    "mean_f1": 0.11388888888888889,
+    "mean_faithfulness": null,
+    "mean_latency_s": 4.016476271099236,
+    "total_cost_usd": 0.0016612499999999997,
+    "mean_cost_usd": 0.00016612499999999999,
+    "confusion_matrix": null,
+    "per_topic": {
+      "Amazon_rainforest": {
+        "n": 5,
+        "mean_em": 0.0,
+        "mean_f1": 0.22777777777777777
+      },
+      "Black_Death": {
+        "n": 2,
+        "mean_em": 0.0,
+        "mean_f1": 0.0
+      },
+      "French_and_Indian_War": {
+        "n": 1,
+        "mean_em": 0.0,
+        "mean_f1": 0.0
+      },
+      "Nikola_Tesla": {
+        "n": 2,
+        "mean_em": 0.0,
+        "mean_f1": 0.0
+      }
+    },
+    "per_question": [
+      {
+        "id": "57265642f1498d1400e8dc6b",
+        "topic": "Black_Death",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 5.2816110419953475,
+        "cost_usd": 0.00018329999999999998,
+        "prompt_tokens": 178,
+        "completion_tokens": 261,
+        "prediction": "Typhus."
+      },
+      {
+        "id": "572a064a3f37b3190047865d",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.6666666666666666,
+        "correct": true,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 1.9787768340029288,
+        "cost_usd": 8.099999999999999e-05,
+        "prompt_tokens": 180,
+        "completion_tokens": 90,
+        "prediction": "Indigenous territories\u3010\u3011"
+      },
+      {
+        "id": "5733d2dbd058e614000b633a",
+        "topic": "French_and_Indian_War",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 3.8454305000050226,
+        "cost_usd": 0.0001413,
+        "prompt_tokens": 174,
+        "completion_tokens": 192,
+        "prediction": "Louisiana\u30101\u3011"
+      },
+      {
+        "id": "5728455bff5b5019007da07b",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.25,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 4.913151834000018,
+        "cost_usd": 0.00024014999999999996,
+        "prompt_tokens": 181,
+        "completion_tokens": 355,
+        "prediction": "\u224820\u202f000\u202ftons per year."
+      },
+      {
+        "id": "5725be0f271a42140099d11b",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.2222222222222222,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 1.8430978340038564,
+        "cost_usd": 8.324999999999999e-05,
+        "prompt_tokens": 179,
+        "completion_tokens": 94,
+        "prediction": "No; they largely contracted during glacial periods."
+      },
+      {
+        "id": "57264845f1498d1400e8db0c",
+        "topic": "Black_Death",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 3.6108100839919643,
+        "cost_usd": 0.00012345,
+        "prompt_tokens": 179,
+        "completion_tokens": 161,
+        "prediction": "Naphtha\u2011based flaming oil."
+      },
+      {
+        "id": "56e0ff5dcd28a01900c673fd",
+        "topic": "Nikola_Tesla",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 6.57462920800026,
+        "cost_usd": 0.00019319999999999998,
+        "prompt_tokens": 176,
+        "completion_tokens": 278,
+        "prediction": "Overloading that caused overheating and a short\u2011circuit burned them out."
+      },
+      {
+        "id": "56e1127bcd28a01900c6754a",
+        "topic": "Nikola_Tesla",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 6.623853999990388,
+        "cost_usd": 0.00039239999999999994,
+        "prompt_tokens": 172,
+        "completion_tokens": 611,
+        "prediction": "Nikola\u202fTesla\u2019s nephew was named\u202fNikola\u202fTesla."
+      },
+      {
+        "id": "572a07c11d046914007796d5",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 2.6314647079998394,
+        "cost_usd": 0.00012869999999999998,
+        "prompt_tokens": 182,
+        "completion_tokens": 169,
+        "prediction": "Satellite\u2011based sending technology."
+      },
+      {
+        "id": "572a020f6aef051400155198",
+        "topic": "Amazon_rainforest",
+        "em": 0,
+        "f1": 0.0,
+        "correct": false,
+        "faithfulness": null,
+        "faithful": null,
+        "latency_s": 2.8619366670027375,
+        "cost_usd": 9.449999999999999e-05,
+        "prompt_tokens": 178,
+        "completion_tokens": 113,
+        "prediction": "Biodiversity\u3010\u3011"
+      }
+    ]
+  }
+}
