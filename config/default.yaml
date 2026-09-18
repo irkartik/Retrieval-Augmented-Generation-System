@@ -5,9 +5,9 @@
 seed: 42
 
 corpus:
-  source: squad_dev          # SQUAD/dev-v1.1.json
-  path: "../../../SQUAD/dev-v1.1.json"   # repo root, relative to workroom (workroom/midsem/Submissions/root)
-  topics:                    # locked per Midsem_Plan.md decisions log
+  source: squad_dev          # data/squad/dev-v1.1.json
+  path: "./data/squad/dev-v1.1.json"
+  topics:                    # locked topic set for this study
     - Nikola_Tesla
     - Amazon_rainforest
     - Black_Death
